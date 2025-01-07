@@ -30,7 +30,7 @@ public class Main {
 
             next = current - 1;
             if (next >= 0 && dist[next] == -1) {
-                dist[next] = dist[current] + 1; // 1초 추가
+                dist[next] = dist[current] + 1;
                 queue.add(next);
             }
 
